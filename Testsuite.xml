@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Ebay Regression" >
+	<test name="Ebay_Launch">
+		<classes>
+			<class name="Ebay.Ebay_Launch"/>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Ebay_Login">
+		<classes>
+			<class name="Ebay.Ebay_Login"/>
+		</classes>
+	</test> 
+	<test name="Ebay_GestureActions">
+		<classes>
+			<class name="Ebay.Ebay_GestureActions"/>
+		</classes>
+	</test> 
+	<test name="Ebay_CartOperation">
+		<classes>
+			<class name="Ebay.Ebay_CartOperation"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
